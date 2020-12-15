@@ -3,7 +3,7 @@
     <% spree_navigation_data.each do |root| %>
       <li class="navbar main-nav-bar-dropdown main-nav-bar-category">
       <%# -------------------------------MODIFY HERE---------------------------------- %>
-        <%= link_to root[:title], root[:url], class: "p-2 main-nav-bar-item main-nav-bar-category-button" %>
+        <%= link_to root[:title], root[:url], class: "nav-font main-nav-bar-category-button" %>
         <%# -------------------------------MODIFY HERE---------------------------------- %>
         <% if root[:items].present? || root[:promo_banners].present? %>
           <div class="w-100 shadow main-nav-bar-category-dropdown">

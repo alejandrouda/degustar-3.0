@@ -1,0 +1,108 @@
+.landing-slider {
+  background-image: url("https://res.cloudinary.com/dqstmox0s/image/upload/v1606835554/degustar/images/louise-lyshoj-WHJTaLqonkU-unsplash_tiyr6x.jpg");
+  background-size: cover;
+  height: calc(100vh - 70px);
+  background-position: 0 35%;
+  position: relative;
+}
+
+.image-filter {
+  height: calc(100vh - 70px);
+  background-color: rgba(255, 196, 129, 0.1);
+}
+
+.slider-title-box {
+  max-width: 600px;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+
+@media (max-height: 500px) {
+  .landing-slider {
+    min-height: calc(100vw / 2.5);
+  }
+
+  .image-filter {
+    min-height: calc(100vw / 2.5);
+  }
+}
+
+@media (max-width: 1248px) {
+  .slider-title-box {
+    left: 56%;
+  }
+}
+
+@media (max-width: 1168px) {
+  .slider-title-box {
+    left: 52%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .slider-title-box {
+    left: 54%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 968px) {
+  .slider-title-box {
+    left: 0 !important;
+    max-width: 100vw;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 20px 0;
+  }
+  .responsive-white-box {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-p-font {
+    display: none;
+  }
+
+  .slider-h-font {
+    font-size: 28px !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 1.85;
+  }
+
+  .landing-container {
+    height: 65vh !important;
+  }
+
+  .landing-slider {
+    height: calc(65vh - 70px);
+  }
+
+  .image-filter {
+    height: calc(65vh - 70px);
+  }
+
+  .responsive-white-box {
+    max-width: 100vw;
+    width: 100vw;
+    padding: 0px calc((100vw - 322px) / 2);
+  }
+
+  .slider-btn-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .carousel-indicators {
+    bottom: -12px !important;
+  }
+}
+
+@media (max-width: 448px) {
+}
+
+@media (max-width: 375px) {
+}
