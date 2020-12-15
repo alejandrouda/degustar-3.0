@@ -32,6 +32,10 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
 
+gem 'spree', '~> 4.1'
+gem 'spree_auth_devise', '~> 4.2'
+gem 'spree_gateway', '~> 3.9'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
