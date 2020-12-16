@@ -14,21 +14,25 @@
   text-decoration: none;
 }
 
-.btn-slider a,
-a:hover {
+.btn-slider:hover {
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 
 .btn-color-card {
-  /* color: $black; */
-  /* font-family: $btn-font; */
-  /* background-color: $white; */
+  color: black;
+  font-family: "Roboto", "sans-serif";
+  background-color: #fbfbfb;
   font-size: 13px;
   font-weight: 500;
   padding: 15px 28px;
   border-radius: 50px;
   box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-color-card:hover {
+  color: black;
+  text-decoration: none;
 }
 
 .btn-newsletter {

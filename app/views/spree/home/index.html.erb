@@ -1,57 +1,15 @@
 <% @body_id = 'home' %>
 
 <%= render 'spree/shared/own_slider' %>
-      <div class="homepage-taxon-box">
-        <%= link_to spree.nested_taxons_path('sportswear') do %>
-          <img class="w-100 lazyload"
-            data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
-            data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
-            alt="<%= Spree.t('homepage.sportswear')%>" />
-
-          <div class="homepage-taxon-box-text" role="img" aria-label="<%= Spree.t('homepage.sportswear') %>">
-            <h3><%= Spree.t('homepage.sportswear') %></h3>
-          </div>
-        <% end %>
-      </div>
-
-    </div>
-
-    <div class="col-6 d-flex flex-column">
-
-      <div class="homepage-taxon-box flex-grow-1">
-        <%= link_to spree.nested_taxons_path('women') do %>
-          <img class="w-100 lazyload"
-            data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
-            data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
-            alt="<%= Spree.t('homepage.women')%>" />
-
-          <div class="homepage-taxon-box-text">
-            <h3><%= Spree.t('homepage.women') %></h3>
-          </div>
-        <% end %>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<div data-product-carousel data-product-carousel-taxon-id='bestsellers' class="my-3"></div>
-
-<div class="homepage-fashion-trends-box mb-3">
-  <div class="text-center">
-    <div class="homepage-fashion-trends-box-summer-text mb-1"><%= Spree.t('homepage.summer_2019') %></div>
-    <div class="homepage-fashion-trends-box-fashion-trends-text mb-2"><%= Spree.t('homepage.fashion_trends') %></div>
-    <div class="homepage-fashion-trends-box-description-text text-center mb-3">
-      <%= Spree.t('homepage.fashion_trends_note') %>
-    </div>
-    <%= link_to Spree.t('homepage.read_more'), spree.nested_taxons_path('trending'), class: 'btn px-5 spree-btn btn-outline-primary' %>
-  </div>
-</div>
 
 
-<div data-product-carousel data-product-carousel-taxon-id='trending' class="mb-3"></div>
+<%= render 'spree/shared/own_banners' %>
 
-<div class="container">
+<div data-product-carousel data-product-carousel-taxon-id='bestsellers' class="my-3 mt-5 mb-5"></div>
+
+<%= render 'spree/shared/services' %>
+
+<div class="container mt-5 mb-5">
   <div class="row">
     <div class="col-12 col-lg-6">
       <%= link_to spree.nested_taxons_path('streetstyle') do %>
@@ -94,3 +52,7 @@
     </div>
   </div>
 </div>
+
+<div data-product-carousel data-product-carousel-taxon-id='trending' class="mt-5 mb-5"></div>
+
+<%= render 'spree/shared/newsletter' %>
