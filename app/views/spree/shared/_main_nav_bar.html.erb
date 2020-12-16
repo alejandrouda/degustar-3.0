@@ -28,7 +28,7 @@
                 <% if root[:promo_banners].present? %>
                   <% root[:promo_banners].each do |promo_banner| %>
                     <%= link_to promo_banner[:url] do %>
-                      <div class="category-image text-center mx-3">
+                      <div class="category-image text-center mx-3 category-image-size">
                         <%= main_nav_image(promo_banner[:image], promo_banner[:title]) %>
                         <div class="category-box">
                           <div class="category-box-small-text">

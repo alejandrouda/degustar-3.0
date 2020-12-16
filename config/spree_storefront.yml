@@ -1,67 +1,65 @@
 default:
   navigation:
-    - title: Products
+    - title: Productos
       subtitle: Categories
-      url: /t/products
+      url: /t/productos
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Panes
+          :url: /t/productos/panes
+        - :title: Pastelería
+          :url: /t/productos/pasteleria
+        - :title: Quesos
+          :url: /t/productos/quesos
+        - :title: Embutidos
+          :url: /t/productos/embutidos
+        - :title: Conservas
+          :url: /t/productos/conservas
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: "meganav/promo_banner_left-first-category.jpg"
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: "meganav/promo_banner_right-first-category.jpg"
-    - title: Inspiration
+        - subtitle: Del campo a tu mesa
+          title: Los mejores quesos
+          url: /t/productos/quesos
+          image: "meganav/aliona-gumeniuk-jeAjT87nbjM-unsplash_l41mvh"
+        - subtitle: Horneados cada día
+          title: Los mejores panes
+          url: /t/productos/panes
+          image: "meganav/wesual-click-rsWZ-P9FbQ4-unsplash_mu5zy4"
+    - title: Inspiración
       subtitle: Categories
-      url: /t/inspiration
+      url: /t/inspiracion
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
-        - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+        - :title: Picnic bajo el sol
+          :url: /t/inspiracion/picnic
+        - :title: Verano
+          :url: /t/inspiracion/verano
+        - :title: Cena familiar
+          :url: /t/inspiracion/cena
+        - :title: Reunión de negocios
+          :url: /t/inspiracion/negocios
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: "meganav/promo_banner_left-second-category.jpg"
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: "meganav/promo_banner_right-second-category.jpg"
-    - title: Tables
+        - subtitle: Disfruta al aire libre
+          title: Picnic bajo el sol
+          url: /t/inspiracion/picnic
+          image: "meganav/toa-heftiba-q1QDZtYP2ow-unsplash"
+        - subtitle: Horneados cada día
+          title: Cena familiar
+          url: /t/inspiracion/cena-familiar
+          image: "meganav/gor-davtyan-b1aT3t3uq2E-unsplash"
+    - title: Tablas
       subtitle: Categories
-      url: /t/tables
+      url: /t/tablas
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Picada
+          :url: /t/tablas/picada
+        - :title: Gourmet
+          :url: /t/tablas/gourmet
+        - :title: Degustar
+          :url: /t/tablas/degustar
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: "meganav/promo_banner_left-third-category.jpg"
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: "meganav/promo_banner_right-third-category.jpg"
+        - subtitle: Disfruta de nuestra variedad
+          title: Picada
+          url: /t/tablas/picada
+          image: "meganav/tim-toomey-oHNkcwHjBSY-unsplash"
+        - subtitle: Nuestra tabla gourmet
+          title: Gourmet
+          url: /t/tablas/gourmet
+          image: "meganav/zan-30809AYY3rg-unsplash"
