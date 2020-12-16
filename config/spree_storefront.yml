@@ -18,11 +18,11 @@ default:
         - subtitle: Del campo a tu mesa
           title: Los mejores quesos
           url: /t/productos/quesos
-          image: "meganav/aliona-gumeniuk-jeAjT87nbjM-unsplash_l41mvh"
+          image: "meganav/aliona-gumeniuk-jeAjT87nbjM-unsplash_l41mvh.jpg"
         - subtitle: Horneados cada día
           title: Los mejores panes
           url: /t/productos/panes
-          image: "meganav/wesual-click-rsWZ-P9FbQ4-unsplash_mu5zy4"
+          image: "meganav/wesual-click-rsWZ-P9FbQ4-unsplash_mu5zy4.jpg"
     - title: Inspiración
       subtitle: Categories
       url: /t/inspiracion
@@ -39,11 +39,11 @@ default:
         - subtitle: Disfruta al aire libre
           title: Picnic bajo el sol
           url: /t/inspiracion/picnic
-          image: "meganav/toa-heftiba-q1QDZtYP2ow-unsplash"
+          image: "meganav/toa-heftiba-q1QDZtYP2ow-unsplash.jpg"
         - subtitle: Horneados cada día
           title: Cena familiar
           url: /t/inspiracion/cena-familiar
-          image: "meganav/gor-davtyan-b1aT3t3uq2E-unsplash"
+          image: "meganav/gor-davtyan-b1aT3t3uq2E-unsplash.jpg"
     - title: Tablas
       subtitle: Categories
       url: /t/tablas
@@ -58,8 +58,8 @@ default:
         - subtitle: Disfruta de nuestra variedad
           title: Picada
           url: /t/tablas/picada
-          image: "meganav/tim-toomey-oHNkcwHjBSY-unsplash"
+          image: "meganav/tim-toomey-oHNkcwHjBSY-unsplash.jpg"
         - subtitle: Nuestra tabla gourmet
           title: Gourmet
           url: /t/tablas/gourmet
-          image: "meganav/zan-30809AYY3rg-unsplash"
+          image: "meganav/zan-30809AYY3rg-unsplash.jpg"
