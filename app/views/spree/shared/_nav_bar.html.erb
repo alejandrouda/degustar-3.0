@@ -2,15 +2,7 @@
   <li>
     <div class="navbar-right-search-menu">
       <button type="button" class="navbar-right-dropdown-toggle search-icons" aria-label="<%= Spree.t('nav_bar.show_search')%>">
-        <%= icon(name: 'magnifying-glass',
-                 classes: 'd-none d-xl-inline-block',
-                 width: 36,
-                 height: 36)  %>
-
-        <%= icon(name: 'magnifying-glass',
-                 classes: 'd-xl-none',
-                 width: 24,
-                 height: 24)  %>
+        <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1607423944/degustar/components/Color_fjcjcv.svg" alt="search">
       </button>
 
       <div id="search-dropdown" class="p-0 px-md-4 py-md-2 w-100 shadow navbar-right-search-menu-dropdown hide-on-esc">
@@ -22,15 +14,7 @@
     <li>
       <div class="dropdown navbar-right-dropdown">
         <button id="account-button" type="button" data-toggle="dropdown" class="navbar-right-dropdown-toggle" aria-label="<%= Spree.t('nav_bar.show_user_menu')%>">
-          <%= icon(name: 'person',
-                  classes: 'd-none d-xl-inline-block',
-                  width: 41.4,
-                  height: 36)  %>
-
-          <%= icon(name: 'person',
-                  classes: 'd-xl-none',
-                  width: 27.6,
-                  height: 24)  %>
+          <img id= "user-icon" src="https://res.cloudinary.com/dqstmox0s/image/upload/v1607424095/degustar/components/noun_avatar_2102861_2_a79thg.svg" alt="user">
         </button>
 
         <div id="link-to-account" class="dropdown-menu dropdown-menu-right text-right">
