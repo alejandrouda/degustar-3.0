@@ -277,7 +277,15 @@
   }
 }
 
+.big-container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
+  .own-main-container {
+    margin: 17px;
+  }
 }
 
 @media (min-width: 512px) {
