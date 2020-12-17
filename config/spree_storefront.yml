@@ -1,7 +1,7 @@
 default:
   navigation:
     - title: Productos
-      subtitle: Categories
+      subtitle: Categorias
       url: /t/productos
       items:
         - :title: Panes

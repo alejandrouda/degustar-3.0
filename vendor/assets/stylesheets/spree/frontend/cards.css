@@ -304,12 +304,12 @@
 
 @media (max-width: 512px) {
   .newsletter-section {
-    /* background-color: $fourth-green; */
+    background-color: #e5efdb;
     padding: 30px 10px;
   }
 
   .newsletter-h-font {
-    /* color: $dark-gray; */
+    color: #414141 !important;
   }
 
   .newsletter--input {

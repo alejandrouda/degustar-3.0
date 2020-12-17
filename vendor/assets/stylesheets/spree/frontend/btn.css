@@ -36,13 +36,13 @@
 }
 
 .btn-newsletter {
-  /* background-color: $primary-green; */
+  background-color: #689440;
   border: none;
   border-radius: 30px;
   padding: 14px 22px;
   margin-left: 10px;
-  /* color: $white; */
-  /* font-family: $btn-font; */
+  color: #fbfbfb;
+  font-family: "Roboto", "sans-serif";
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
