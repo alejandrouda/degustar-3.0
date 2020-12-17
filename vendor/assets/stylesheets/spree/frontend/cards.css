@@ -256,8 +256,8 @@
 }
 
 @media (max-width: 976px) {
-  .color-cards-container {
-    display: none;
+  #color-cards-container {
+    display: none !important;
   }
 
   .color-card-container {
@@ -273,7 +273,7 @@
     display: block;
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.2);
     padding: 30px;
-    margin: 80px 0px;
+    margin: 0px;
   }
 }
 
