@@ -3,6 +3,10 @@
   margin: 0px 20px;
 }
 
+.footer-box ul {
+  padding-inline-start: 0px !important;
+}
+
 .footer-main-box {
   width: 50%;
 }
